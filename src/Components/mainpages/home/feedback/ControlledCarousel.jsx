@@ -1,6 +1,6 @@
 import React from "react";
 import {CCarousel, CCarouselItem, CImage} from '@coreui/react'
-import review from './review.json'
+import review from '/src/Components/mainpages/home/feedback/review.json'
 const ControlledCarousel = () => {
   
   return (

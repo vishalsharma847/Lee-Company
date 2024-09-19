@@ -1,21 +1,21 @@
 [{
     "name":"Cartoon Boxes",
-    "img":"./src/assets/real_images/Cartoon.png"
+    "img":"/src/assets/real_images/Cartoon.png"
 },
 {
     "name":"Bubble",
-    "img":"./src/assets/real_images/Bubble.png"
+    "img":"/src/assets/real_images/Bubble.png"
 },
 {
     "name":"Foamsheets",
-    "img":"./src/assets/real_images/Foamsheets.png"
+    "img":"/src/assets/real_images/Foamsheets.png"
 },
 {
     "name":"Tape",
-    "img":"./src/assets/real_images/Tape.png"
+    "img":"/src/assets/real_images/Tape.png"
 },
 {
     "name":"Corrugated Roll",
-    "img":"./src/assets/real_images/Roll.png"
+    "img":"/src/assets/real_images/Roll.png"
 }
 ]

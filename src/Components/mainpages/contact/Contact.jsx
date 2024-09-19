@@ -1,5 +1,5 @@
 import React from "react";
-import Form from "../home/form/Form";
+import Form from "/src/Components/mainpages/home/form/Form";
 import { Link } from "react-router-dom";
 
 const Contact = () => {
@@ -44,12 +44,7 @@ const Contact = () => {
           </div>
         </div>
         <div className="flex justify-center">
-          <div className="flex flex-col h-fit p-1 shadow-sm shadow-foot w-10/12 bg-indigo-300 align-middle mt-10 rounded-lg m-6">
-            <h4 className="flex text-center blur-none justify-center mt-4 mb-4 font-bold text-2xl ">
-              GET THE BEST QUOTE
-            </h4>
             <Form />
-          </div>
         </div>
       </div>
     </div>

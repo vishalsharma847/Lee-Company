@@ -5,13 +5,14 @@ import { FaXTwitter } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
+import Logoname from "/src/assets/LeeHomeNameLogo.png";
 
 const Footer = () => {
   return (
     <footer className='bg-foot p-1'>
         <div className='grid gap-y-4 gap-x-8  m-6  grid-cols-2 text-white text-md'>
             <div className='flex flex-col text-center justify-center  items-center'>
-                <Link to='/' className='w-44'><img src="./src/assets/LeeHomeNameLogo.png" alt=""/></Link>
+                <Link to='/' className='w-44'><img src={Logoname} alt=""/></Link>
                 <h4 className='text-xl font-caveat'>Moving made simpler</h4>
             </div>
             <div className='flex flex-col items-start'>
@@ -66,37 +67,37 @@ const Footer = () => {
         <div className='grid gap-y-4 gap-x-8 m-6 mt-2 mb-20 grid-cols-2 text-white text-sm'>
             <div className='flex flex-col items-start'>
                 <ul>
-                    <li><Link to='' >Delhi NCR</Link></li>
-                    <li><Link to='' >Kolkata</Link></li>
-                    <li><Link to='' >Siliguri</Link></li>
-                    <li><Link to='' >Lucknow</Link></li>
-                    <li><Link to='' >Hyderabad</Link></li>
+                    <li><Link to='/workarea/delhi-ncr' >Delhi NCR</Link></li>
+                    <li><Link to='/workarea/kolkata' >Kolkata</Link></li>
+                    <li><Link to='/workarea/siliguri' >Siliguri</Link></li>
+                    <li><Link to='/workarea/lucknow' >Lucknow</Link></li>
+                    <li><Link to='/workarea/hyderabad' >Hyderabad</Link></li>
                 </ul>
             </div>
             <div className='flex flex-col items-start'>
                 <ul>
-                    <li><Link to='' >Patna</Link></li>
-                    <li><Link to='' >Meerut</Link></li>
-                    <li><Link to='' >Bangalore</Link></li>
-                    <li><Link to='' >Bhopal</Link></li>
-                    <li><Link to='' >Ahmedabad</Link></li>
+                    <li><Link to='/workarea/patna' >Patna</Link></li>
+                    <li><Link to='/workarea/meerut' >Meerut</Link></li>
+                    <li><Link to='/workarea/bangalore' >Bangalore</Link></li>
+                    <li><Link to='/workarea/bhopal' >Bhopal</Link></li>
+                    <li><Link to='/workarea/ahmedabad' >Ahmedabad</Link></li>
                 </ul>
             </div>
             <div className='flex flex-col items-start'>
                 <ul>
-                    <li><Link to='' >Chandigarh</Link></li>
-                    <li><Link to='' >Mumbai</Link></li>
-                    <li><Link to='' >Pune</Link></li>
-                    <li><Link to='' >Rohtak</Link></li>
-                    <li><Link to='' >Ranchi</Link></li>
+                    <li><Link to='/workarea/chandigarh' >Chandigarh</Link></li>
+                    <li><Link to='/workarea/mumbai' >Mumbai</Link></li>
+                    <li><Link to='/workarea/pune' >Pune</Link></li>
+                    <li><Link to='/workarea/rohtak' >Rohtak</Link></li>
+                    <li><Link to='/workarea/ranchi' >Ranchi</Link></li>
                 </ul>
             </div>
             <div className='flex flex-col items-start'>
                 <ul>
-                    <li><Link to='' >Jaipur</Link></li>
-                    <li><Link to='' >Dehradun</Link></li>
-                    <li><Link to='' >Agra</Link></li>
-                    <li><Link to='' >Indore</Link></li>
+                    <li><Link to='/workarea/jaipur' >Jaipur</Link></li>
+                    <li><Link to='/workarea/dehradun' >Dehradun</Link></li>
+                    <li><Link to='/workarea/agra' >Agra</Link></li>
+                    <li><Link to='/workarea/indore' >Indore</Link></li>
                 </ul>
             </div>
         </div>

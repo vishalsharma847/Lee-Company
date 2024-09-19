@@ -9,6 +9,9 @@ import { FaInstagram } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
 import { IoIosArrowDropdown } from "react-icons/io";
 import { RiArrowDropUpLine } from "react-icons/ri";
+import Logo from "/src/assets/Logo.png"
+import Logoname from "/src/assets/LeeHomeNameLogo.png"
+import Call from "/src/assets/call-icon.png"
 
 const Header = () => {
 
@@ -51,18 +54,18 @@ const Header = () => {
     },[])
     
     return (
-        <header>
+        <header className="fixed top-0 w-screen z-20">
       <nav>
-        <div id="navbar" className="flex text-xl fixed top-0 w-screen z-20">
+        <div id="navbar" className="flex text-xl">
           <ul id="logobox" className="flex align-middle text-center w-full h-16 justify-between items-center bg-head p-3 z-20">
             <div id="logoimg" className="size-12">
               <Link to="/" >
-                <img src="./src/assets/Logo.png" alt="logo" />
+                <img src={Logo} alt="logo" />
               </Link>
             </div>
             <div id="logoname" className="w-40">
               <Link to="/" >
-                <img src="./src/assets/LeeHomeNameLogo.png" alt="logo" />
+                <img src={Logoname} alt="logo" />
               </Link>
             </div>
             {menu ?<RxCross2 className="size-8 text-white" onClick={openmenu} /> : <IoMdMenu className="size-8 text-white" onClick={openmenu}/>}
@@ -74,7 +77,7 @@ const Header = () => {
                 Home
               </Link>
               </li>
-              <div class="dropdown">
+              <div>
                 <button className=" bg-menutop w-full h-12 flex items-center justify-center mt-0.5 mb-1" onClick={servicetab}>
                   Services {servmenu ? <RiArrowDropUpLine className="ml-1 size-6"/> : <IoIosArrowDropdown className="ml-1 size-6"/>}
                 </button>
@@ -150,7 +153,7 @@ const Header = () => {
         </div>
             <div id="call" className="flex fixed size-40 right-6 -bottom-16 z-10">
                 <Link to="tel: +91 9310553121" alt="call">
-                  <img src="./src/assets/call-icon.png" alt="call" />
+                  <img src={Call} alt="call" />
                 </Link>
               </div>
       </nav>

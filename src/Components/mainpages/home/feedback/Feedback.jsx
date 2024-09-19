@@ -1,5 +1,5 @@
 import React from "react";
-import ControlledCarousel from "./ControlledCarousel";
+import ControlledCarousel from "/src/Components/mainpages/home/feedback/ControlledCarousel";
 
 
 const Feedback = () => {

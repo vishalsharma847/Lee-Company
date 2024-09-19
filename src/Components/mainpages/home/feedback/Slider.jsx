@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from "react";
-import review from "./review.json";
+import review from "/src/Components/mainpages/home/feedback/review.json";
 import { useState } from "react";
 
 const Slider = () => {

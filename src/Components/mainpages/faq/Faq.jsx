@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import faq from "./faq.json";
+import faq from "/src/Components/mainpages/faq/faq.json";
 import { IoMdArrowDropdownCircle } from "react-icons/io";
 import { IoMdArrowDropupCircle } from "react-icons/io";
 
