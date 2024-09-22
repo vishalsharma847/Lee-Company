@@ -21,8 +21,8 @@ const About = ({ place }) => {
           </h2>
           <div className="w-20 h-2 bg-white rounded-lg mt-2"></div>
         </div>
-        <div className="">
-          <div className="flex flex-col justify-center items-center text-center mt-8 mb-4">
+        <div className="lg:flex lg:justify-center lg:items-center">
+          <div className="flex flex-col justify-around items-center text-center mt-8 mb-4 lg:flex-row lg:w-4/5">
             <div className="mb-4">
               <Link to="/">
                 <img
@@ -32,7 +32,7 @@ const About = ({ place }) => {
                 />
               </Link>
             </div>
-            <div className="w-4/5 text-md">
+            <div className="w-4/5 text-md lg:w-3/5">
               <p>
                 Welcome to our Lee Home Packers And Movers {place}! We are your
                 reliable and professional moving partners, committed to making

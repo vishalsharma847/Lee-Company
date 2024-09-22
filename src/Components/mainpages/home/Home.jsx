@@ -12,8 +12,10 @@ const Home = () => {
         <meta charSet="utf-8" />
         <title>This is Home</title>
       </Helmet>
-      <div className="flex w-full h-max bg-purple-500" >
+      <div className="flex w-full h-5/6 max-h-dvh bg-[url(/src/assets/real_images/A1.jpg)] bg-cover bg-no-repeat bg-left justify-center lg:justify-end" >
+      <div className="flex items-center w-96 justify-center ">
       <Form />
+      </div>
       </div>
       <div className=" w-full min-h-fit">
         <Why />
