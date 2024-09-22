@@ -1,85 +1,85 @@
 [   {
         "id":1,
         "name":"review1",
-        "img":"./src/assets/Review 1.png",
-        "imgm":"./src/assets/Review-next-mobile-1.png"
+        "img":"/src/assets/Review 1.png",
+        "imgm":"/src/assets/Review-next-mobile-1.png"
     },
     {
         "id":2,
         "name":"review2",
-        "img":"./src/assets/Review 2.png",
-        "imgm":"./src/assets/Review-next-mobile-2.png"
+        "img":"/src/assets/Review 2.png",
+        "imgm":"/src/assets/Review-next-mobile-2.png"
     },
     {
         "id":3,
         "name":"review3",
-        "img":"./src/assets/Review 3.png",
-        "imgm":"./src/assets/Review-next-mobile-3.png"
+        "img":"/src/assets/Review 3.png",
+        "imgm":"/src/assets/Review-next-mobile-3.png"
     },
     {
         "id":4,
         "name":"review4",
-        "img":"./src/assets/Review 4.png",
-        "imgm":"./src/assets/Review-next-mobile-4.png"
+        "img":"/src/assets/Review 4.png",
+        "imgm":"/src/assets/Review-next-mobile-4.png"
     },
     {
         "id":5,
         "name":"review5",
-        "img":"./src/assets/Review 5.png",
-        "imgm":"./src/assets/Review-next-mobile-5.png"
+        "img":"/src/assets/Review 5.png",
+        "imgm":"/src/assets/Review-next-mobile-5.png"
     },
     {
         "id":6,
         "name":"review6",
-        "img":"./src/assets/Review 6.png",
-        "imgm":"./src/assets/Review-next-mobile-6.png"
+        "img":"/src/assets/Review 6.png",
+        "imgm":"/src/assets/Review-next-mobile-6.png"
     },
     {
         "id":7,
         "name":"review7",
-        "img":"./src/assets/Review 7.png",
-        "imgm":"./src/assets/Review-next-mobile-7.png"
+        "img":"/src/assets/Review 7.png",
+        "imgm":"/src/assets/Review-next-mobile-7.png"
     },
     {
         "id":8,
         "name":"review8",
-        "img":"./src/assets/Review 8.png",
-        "imgm":"./src/assets/Review-next-mobile-8.png"
+        "img":"/src/assets/Review 8.png",
+        "imgm":"/src/assets/Review-next-mobile-8.png"
     },
     {
         "id":9,
         "name":"review9",
-        "img":"./src/assets/Review 9.png",
-        "imgm":"./src/assets/Review-next-mobile-9.png"
+        "img":"/src/assets/Review 9.png",
+        "imgm":"/src/assets/Review-next-mobile-9.png"
     },
     {
         "id":10,
         "name":"review10",
-        "img":"./src/assets/Review 10.png",
-        "imgm":"./src/assets/Review-next-mobile-10.png"
+        "img":"/src/assets/Review 10.png",
+        "imgm":"/src/assets/Review-next-mobile-10.png"
     },
     {
         "id":11,
         "name":"review11",
-        "img":"./src/assets/Review 11.png",
-        "imgm":"./src/assets/Review-next-mobile-11.png"
+        "img":"/src/assets/Review 11.png",
+        "imgm":"/src/assets/Review-next-mobile-11.png"
     },
     {
         "id":12,
         "name":"review12",
-        "img":"./src/assets/Review 12.png",
-        "imgm":"./src/assets/Review-next-mobile-12.png"
+        "img":"/src/assets/Review 12.png",
+        "imgm":"/src/assets/Review-next-mobile-12.png"
     },
     {
         "id":13,
         "name":"review13",
-        "img":"./src/assets/Review 13.png",
-        "imgm":"./src/assets/Review-next-mobile-13.png"
+        "img":"/src/assets/Review 13.png",
+        "imgm":"/src/assets/Review-next-mobile-13.png"
     },
     {
         "id":14,
         "name":"review14",
-        "img":"./src/assets/Review 14.png",
-        "imgm":"./src/assets/Review-next-mobile-14.png"
+        "img":"/src/assets/Review 14.png",
+        "imgm":"/src/assets/Review-next-mobile-14.png"
     }
 ]

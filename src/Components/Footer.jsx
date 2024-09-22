@@ -10,10 +10,12 @@ import Logoname from "/src/assets/LeeHomeNameLogo.png";
 const Footer = () => {
   return (
     <footer className='bg-foot p-1'>
-        <div className='grid gap-y-4 gap-x-8  m-6  grid-cols-2 text-white text-md'>
-            <div className='flex flex-col text-center justify-center  items-center'>
+        <div className='grid gap-y-4 gap-x-12  m-6  grid-cols-2 text-white text-md'>
+            <div className='flex flex-col text-center justify-center  items-start'>
+                <div className='flex flex-col items-center'>
                 <Link to='/' className='w-44'><img src={Logoname} alt=""/></Link>
-                <h4 className='text-xl font-caveat'>Moving made simpler</h4>
+                <h4 className='text-lg font-caveat'>Moving made simpler</h4>
+                </div>
             </div>
             <div className='flex flex-col items-start'>
                 <h4 className='text-tfoot'>Company</h4>
@@ -45,11 +47,11 @@ const Footer = () => {
                 </ul>
             </div>
         </div>
-        <div className='flex flex-col w-full items-center mb-4 text-white'>
-            <div className='w-11/12 pl-2 text-md'>
+        <div className='flex flex-col w-full items-left mb-4 text-white'>
+            <div className='w-4/5 ml-6 text-md'>
                 <h4 className='text-tfoot'>Follow Us</h4>
                 <div className='w-6 h-1 bg-red-600 rounded-lg'></div>
-                <ul className='flex mt-2 justify-evenly'>
+                <ul className='flex mt-4 justify-around w-full'>
                     <li><Link to="https://www.facebook.com/leehomepackersandmovers/"><FaFacebook className='size-6'/></Link></li>
                     <li><Link to="https://twitter.com/leehomepackers?lang=en"><FaXTwitter className='size-6'/></Link></li>
                     <li><Link to="https://www.instagram.com/leehomepackers/"><FaInstagram className='size-6'/></Link></li>
@@ -58,8 +60,8 @@ const Footer = () => {
                 </ul>
             </div>
             </div>
-          <div className='flex flex-col w-full items-center'>
-              <div className='w-11/12 pl-2 text-md'>
+          <div className='flex flex-col w-full items-start'>
+              <div className='w-4/5 ml-6 text-md'>
                 <h4 className='text-tfoot row-span-2'>Places where we serve</h4>
                 <div className='w-6 h-1 bg-red-600 rounded-lg '></div>
           </div>

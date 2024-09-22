@@ -1,10 +1,15 @@
 import React from "react";
 import Form from "/src/Components/mainpages/home/form/Form";
 import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet";
 
 const Contact = () => {
   return (
-    <div className="flex flex-col justify-center w-full h-fit bg-gradient-to-b from-bodyprim to-bodysec">
+    <div className="flex flex-col justify-center w-full h-fit">
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>This is Contact</title>
+      </Helmet>
       <div>
         <div className="flex flex-col justify-center items-center text-center mt-16 mb-4">
           <h1 className="mt-8 text-2xl font-bold w-4/5">Office Address</h1>
@@ -23,10 +28,14 @@ const Contact = () => {
           <h1 className="mt-8 text-2xl font-bold w-4/5">Contact Number</h1>
           <div className="w-20 h-2 bg-white rounded-lg mt-2"></div>
           <h2 className="mb-4 mt-8 font-bold">
-            <Link className="bg-white p-2 rounded-2xl" to ="tel: +91 9310553121">+91 9310553121</Link>
+            <Link className="bg-white p-2 rounded-2xl" to="tel: +91 9310553121">
+              +91 9310553121
+            </Link>
           </h2>
           <h2 className=" mt-2 font-bold">
-            <Link className="bg-white p-2 rounded-2xl" to="tel: +91 9818553121">+91 9818553121</Link>
+            <Link className="bg-white p-2 rounded-2xl" to="tel: +91 9818553121">
+              +91 9818553121
+            </Link>
           </h2>
         </div>
         <div className="flex flex-col justify-center items-center text-center mt-8 mb-4">
@@ -44,7 +53,7 @@ const Contact = () => {
           </div>
         </div>
         <div className="flex justify-center">
-            <Form />
+          <Form />
         </div>
       </div>
     </div>

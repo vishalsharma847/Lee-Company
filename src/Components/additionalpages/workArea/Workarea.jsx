@@ -1,27 +1,31 @@
-import React from 'react'
-import Services from '/src/Components/mainpages/services/Services'
-import { Link } from 'react-router-dom'
-import Whylee from '/src/Components/mainpages/about/aboutemplates/Whylee'
-import Connectwithus from '/src/Components/mainpages/about/aboutemplates/Connectwithus'
-import WhatMakesUsUnique from '/src/Components/mainpages/about/aboutemplates/WhatMakesUsUnique'
-import Materials from '/src/Components/mainpages/about/aboutemplates/Materials'
-import OurMission from '/src/Components/mainpages/about/aboutemplates/OurMission'
-import Relocate from '/src/Components/mainpages/services/completeRelocation/Relocate'
-import RelocateComp2 from '/src/Components/mainpages/services/completeRelocation/RelocateComp2'
-import Packing from '/src/Components/mainpages/services/packingServices/Packing'
-import PackingComp2 from '/src/Components/mainpages/services/packingServices/PackingComp2'
-import PersonalV from '/src/Components/mainpages/services/personalVehicleTransport/PersonalV'
-import PersonalV2 from '/src/Components/mainpages/services/personalVehicleTransport/PersonalV2'
-import Transport from '/src/Components/mainpages/services/transportVehicle/Transport'
-import TransportComp2 from '/src/Components/mainpages/services/transportVehicle/TransportComp2'
-import WareComp2 from '/src/Components/mainpages/services/warehousing/WareComp2'
-import Ware from '/src/Components/mainpages/services/warehousing/Ware'
-import Form from '/src/Components/mainpages/home/form/Form'
+import React from "react";
+import { Link } from "react-router-dom";
+import Whylee from "/src/Components/mainpages/about/aboutemplates/Whylee";
+import Connectwithus from "/src/Components/mainpages/about/aboutemplates/Connectwithus";
+import WhatMakesUsUnique from "/src/Components/mainpages/about/aboutemplates/WhatMakesUsUnique";
+import Materials from "/src/Components/mainpages/about/aboutemplates/Materials";
+import OurMission from "/src/Components/mainpages/about/aboutemplates/OurMission";
+import Relocate from "/src/Components/mainpages/services/completeRelocation/Relocate";
+import RelocateComp2 from "/src/Components/mainpages/services/completeRelocation/RelocateComp2";
+import Packing from "/src/Components/mainpages/services/packingServices/Packing";
+import PackingComp2 from "/src/Components/mainpages/services/packingServices/PackingComp2";
+import PersonalV from "/src/Components/mainpages/services/personalVehicleTransport/PersonalV";
+import PersonalV2 from "/src/Components/mainpages/services/personalVehicleTransport/PersonalV2";
+import Transport from "/src/Components/mainpages/services/transportVehicle/Transport";
+import TransportComp2 from "/src/Components/mainpages/services/transportVehicle/TransportComp2";
+import WareComp2 from "/src/Components/mainpages/services/warehousing/WareComp2";
+import Ware from "/src/Components/mainpages/services/warehousing/Ware";
+import Form from "/src/Components/mainpages/home/form/Form";
+import { Helmet } from "react-helmet";
+import ServicCont from "/src/Components/mainpages/services/ServicCont";
 
-
-const Workarea = ({place}) => {
+const Workarea = ({ place }) => {
   return (
     <section className="flex flex-col justify-center w-full h-fit">
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>This is {place}</title>
+      </Helmet>
       <div>
         <div className="flex flex-col justify-center items-center text-center mt-16 mb-4">
           <h2 className="mt-8 text-2xl font-bold w-4/5">
@@ -60,36 +64,36 @@ const Workarea = ({place}) => {
         </div>
         <div className="flex flex-col justify-center items-center text-center mt-8 mb-4">
           <Whylee place={place} />
-          <Services />
+          <ServicCont />
           <div>
-            <Relocate/>
-            <RelocateComp2/>
+            <Relocate />
+            <RelocateComp2 />
           </div>
-          <div className='flex flex-col items-center'>
-            <Packing/>
-            <Materials/>
-            <PackingComp2/>
-          </div>
-          <div>
-            <Transport/>
-            <TransportComp2/>
+          <div className="flex flex-col items-center">
+            <Packing />
+            <Materials />
+            <PackingComp2 />
           </div>
           <div>
-            <Ware/>
-            <WareComp2/>
+            <Transport />
+            <TransportComp2 />
           </div>
           <div>
-            <PersonalV/>
-            <PersonalV2/>
+            <Ware />
+            <WareComp2 />
+          </div>
+          <div>
+            <PersonalV />
+            <PersonalV2 />
           </div>
           <Connectwithus />
           <WhatMakesUsUnique place={place} />
           <OurMission />
-          <Form/>
+          <Form />
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default Workarea
+export default Workarea;

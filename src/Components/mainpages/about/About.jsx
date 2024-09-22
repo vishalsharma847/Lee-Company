@@ -5,10 +5,15 @@ import Materials from "/src/Components/mainpages/about/aboutemplates/Materials";
 import Connectwithus from "/src/Components/mainpages/about/aboutemplates/Connectwithus";
 import WhatMakesUsUnique from "/src/Components/mainpages/about/aboutemplates/WhatMakesUsUnique";
 import OurMission from "/src/Components/mainpages/about/aboutemplates/OurMission";
+import { Helmet } from "react-helmet";
 
 const About = ({ place }) => {
   return (
     <section className="flex flex-col justify-center w-full h-fit">
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>This is About</title>
+      </Helmet>
       <div>
         <div className="flex flex-col justify-center items-center text-center mt-16 mb-4">
           <h2 className="mt-8 text-2xl font-bold w-4/5">
@@ -22,7 +27,7 @@ const About = ({ place }) => {
               <Link to="/">
                 <img
                   className="w-56"
-                  src="./src/assets/LeeHomeNameLogo.png"
+                  src="/src/assets/LeeHomeNameLogo.png"
                   alt=""
                 />
               </Link>
