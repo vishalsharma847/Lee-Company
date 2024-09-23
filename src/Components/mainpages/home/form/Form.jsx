@@ -40,7 +40,6 @@ const Form = () => {
           type="text"
           name="userName"
           id="name"
-          class="quote-mobile"
           placeholder="Name*  ex.'Rahul'"
           maxLength="20"
           required
@@ -50,7 +49,6 @@ const Form = () => {
           type="tel"
           name="userPhone"
           id="mobile"
-          class="quote-mobile"
           maxLength="10"
           pattern="[0-9]{10}"
           title="Must be a valid Mobile Number."
@@ -62,7 +60,6 @@ const Form = () => {
           type="email"
           name="userEmail"
           id="email"
-          class="quote-mobile"
           pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$"
           title="Must be a valid E-Mail Address."
           placeholder="Email Address*  ex.'RahulsinXXX32@gmail.com'"
@@ -73,7 +70,6 @@ const Form = () => {
           type="text"
           name="location_from"
           id="location-from"
-          class="quote-mobile"
           placeholder="Location From*  ex.'Rohini, Delhi'"
           required
           className="w-10/12 p-1 rounded-lg m-1"
@@ -82,7 +78,6 @@ const Form = () => {
           type="text"
           name="location_to"
           id="location-to"
-          class="quote-mobile"
           placeholder="Location To*  ex.'Siliguri, West bengal'"
           required
           className="w-10/12 p-1 rounded-lg m-1"
@@ -91,7 +86,6 @@ const Form = () => {
           type={date}
           name="date"
           id="date"
-          class="quote-mobile date"
           onFocus={() => setDate("date")}
           onBlur={() => setDate("text")}
           min={x}
@@ -100,7 +94,6 @@ const Form = () => {
           className="w-10/12 p-1 rounded-lg m-1"
         />
         <input
-          class="buttan"
           name="send"
           type="submit"
           id="submit-mobile"
