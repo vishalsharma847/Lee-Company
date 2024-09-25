@@ -1,11 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import img1 from "/src/assets/real_images/About2.jpg";
 
 const WhatMakesUsUnique = ({place}) => {
   return (
     <div class="flex flex-col w-full">
-      <div className="flex flex-col items-center w-full">
-        <div className="flex flex-col w-full items-center justify-center">
+      <div className="flex flex-col items-center w-full lg:flex-row-reverse lg:justify-evenly">
+        <div className="flex flex-col w-full items-center justify-center lg:w-1/2">
           <h3 className="p-2 border-black border-2 m-4">
             What makes Lee Home Packers And Movers {place} unique?
           </h3>
@@ -46,15 +47,14 @@ const WhatMakesUsUnique = ({place}) => {
             </ol>
           </div>
         </div>
-        <div className="flex justify-center">
-          <Link className="flex justify-center mb-4 w-4/5" to="/">
-            <img
-              className="flex w-4/5"
-              src="./src/assets/real_images/About2.jpg"
-              alt=""
-            />
-          </Link>
-        </div>
+        <div className="flex items-center justify-center">
+              <Link
+                className="flex justify-center items-start mb-4 lg:mb-0 w-4/5 lg:w-fit"
+                to="/"
+              >
+                <img className="flex w-4/5 lg:w-96" src={img1} alt="" />
+              </Link>
+            </div>
       </div>
     </div>
   );

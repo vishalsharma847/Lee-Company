@@ -14,7 +14,7 @@ const ServicCont = () => {
         <h1 className="mt-8 text-3xl font-bold w-4/5">Our Services</h1>
         <div className="w-20 h-2 bg-white rounded-lg mt-2"></div>
       </div>
-      <div className="flex flex-col text-center items-center justify-center">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-items-center text-center">
         {/* <div className="flex relative items-center flex-col text-center justify-between size-60 p-3 mb-8 bg-white rounded-3xl">
       <FaPeopleCarryBox className="size-20" />
       <div className="flex w-full justify-between">

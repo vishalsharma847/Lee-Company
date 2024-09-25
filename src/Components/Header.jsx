@@ -148,13 +148,13 @@ const Header = () => {
               </div>
             </li>
             <li>
-              <Link to="/">Contact Us</Link>
+              <Link to="/contact">Contact Us</Link>
             </li>
             <li>
-              <Link to="/">FAQs</Link>
+              <Link to="/faq">FAQs</Link>
             </li>
             <li>
-              <Link to="/">About Us</Link>
+              <Link to="/about">About Us</Link>
             </li>
           </ul>
           <div id="call" className="hidden lg:flex w-32 ml-4 mr-4 items-center">

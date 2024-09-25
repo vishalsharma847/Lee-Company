@@ -7,18 +7,19 @@ const Relocate = () => {
   return (
     <div className="flex flex-col items-center">
       <div className="flex flex-col justify-center items-center text-center mt-16 mb-4">
-        <h1 className="mt-8 text-2xl font-bold w-4/5">
+        <h1 className="mt-8 text-2xl font-bold w-3/4 lg:w-fit">
           Complete Moving Solution
         </h1>
         <div className="w-20 h-2 bg-white rounded-lg mt-2"></div>
       </div>
+      <div className="flex flex-col items-center justify-center lg:flex-row lg:justify-evenly lg:mb-20 lg:mt-10" >
       <Link to="/services/complete-relocation">
-        <div className="flex relative items-center flex-col text-center justify-evenly size-28 p-3 mb-8 rounded-3xl">
-          <FaPeopleCarryBox className="size-28" />
+        <div className="flex relative items-center flex-col text-center justify-evenly size-28 lg:size-32 p-3 mb-8 rounded-3xl">
+          <FaPeopleCarryBox className="size-28 lg:size-40" />
         </div>
       </Link>
-      <div className="flex items-center flex-col text-center w-3/4">
-        <h1 className="w-full underline leading-10 underline-offset-8 text-lg mb-4">
+      <div className="flex items-center flex-col text-center w-3/4 lg:w-1/2">
+        <h1 className="w-full underline font-bold leading-10 underline-offset-8 text-lg mb-4">
           Hassle-Free Relocation Solutions: Lee Home Packers and Movers
         </h1>
         <p className="w-full mb-3">
@@ -36,14 +37,15 @@ const Relocate = () => {
           Our Dedicated Team Make Your Move Effortless!"
         </p>
       </div>
+      </div>
       <div className="flex text-center">
-        <div className="flex flex-col items-center w-full">
-          <div className="flex flex-col w-full items-center justify-center">
+        <div className="flex flex-col items-center w-full lg:flex-row lg:justify-evenly">
+          <div className="flex flex-col w-full lg:w-1/2 items-center justify-center">
             <h3 className="p-2 border-black border-2 m-4">
               Our Complete Relocation Services:
             </h3>
-            <div className="flex flex-col items-center justify-center w-4/5 ">
-              <ol className=" text-balance flex flex-col list-decimal text-justify text-md w-3/4 justify-center">
+            <div className="flex flex-col items-center justify-center w-4/5">
+              <ol className=" text-pretty flex flex-col list-decimal text-justify text-md w-3/4 lg:w-full justify-center">
                 <li>
                   <strong>Professional Packing: </strong> Our skilled packers
                   understand the value and significance of your belongings. With
@@ -68,7 +70,7 @@ const Relocate = () => {
                   drivers navigate the journey with expertise, ensuring that
                   your possessions arrive on time and in excellent condition.
                 </li>
-                <li className="mt-4 mb-4">
+                <li className="mt-4">
                   <strong>Unpacking Assistance:</strong> Upon reaching your new
                   home or office, our team can assist with unpacking and
                   arranging your items, making the settling-in process smooth
@@ -76,7 +78,7 @@ const Relocate = () => {
                   you desire, so you can start enjoying your new space right
                   away.
                 </li>
-                <li className="mt-4 mb-4">
+                <li className="mt-4">
                   <strong>Warehousing Solutions:</strong> We understand that
                   sometimes, a seamless move requires temporary storage
                   solutions. Whether you need a short-term storage option during
@@ -107,8 +109,8 @@ const Relocate = () => {
             </div>
           </div>
           <div className="flex justify-center">
-            <Link className="flex justify-center mb-4 w-4/5" to="/">
-              <img className="flex w-4/5" src={img1} alt="" />
+            <Link className="flex justify-center items-start mb-4 w-4/5 lg:w-fit" to="/">
+              <img className="flex w-4/5 lg:w-96" src={img1} alt="" />
             </Link>
           </div>
         </div>

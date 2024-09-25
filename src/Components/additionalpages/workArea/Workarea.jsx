@@ -64,7 +64,9 @@ const Workarea = ({ place }) => {
         </div>
         <div className="flex flex-col justify-center items-center text-center mt-8 mb-4">
           <Whylee place={place} />
+          <div className="w-full">
           <ServicCont />
+          </div>
           <div>
             <Relocate />
             <RelocateComp2 />

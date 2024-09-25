@@ -17,8 +17,12 @@ const PersonalVehicle = () => {
         <div className="flex text-center">
           <div className="flex flex-col items-center w-full">
             <PersonalV2 />
+            <div className="flex flex-col justify-center items-center h-fit w-3/4">
             <OurMission />
+            </div>
+            <div className="flex justify-center items-center w-dvw lg:mb-16">
             <Form />
+            </div>
           </div>
         </div>
       </div>

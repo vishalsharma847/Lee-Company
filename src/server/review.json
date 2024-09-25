@@ -1,31 +1,31 @@
 [   {
         "id":1,
         "name":"review1",
-        "img":"/src/assets/Review 1.png",
-        "imgm":"/src/assets/Review-next-mobile-1.png"
+        "img":"/assets/Review 1.png",
+        "imgm":"/assets/Review-next-mobile-1.png"
     },
     {
         "id":2,
         "name":"review2",
-        "img":"/src/assets/Review 2.png",
-        "imgm":"/src/assets/Review-next-mobile-2.png"
+        "img":"/assets/Review 2.png",
+        "imgm":"/assets/Review-next-mobile-2.png"
     },
     {
         "id":3,
         "name":"review3",
-        "img":"/src/assets/Review 3.png",
-        "imgm":"/src/assets/Review-next-mobile-3.png"
+        "img":"/assets/Review 3.png",
+        "imgm":"/assets/Review-next-mobile-3.png"
     },
     {
         "id":4,
         "name":"review4",
-        "img":"/src/assets/Review 4.png",
-        "imgm":"/src/assets/Review-next-mobile-4.png"
+        "img":"/assets/Review 4.png",
+        "imgm":"/assets/Review-next-mobile-4.png"
     },
     {
         "id":5,
         "name":"review5",
-        "img":"/src/assets/Review 5.png",
+        "img":"/assets/Review 5.png",
         "imgm":"/src/assets/Review-next-mobile-5.png"
     },
     {
