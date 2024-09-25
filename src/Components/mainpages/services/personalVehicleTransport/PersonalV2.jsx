@@ -7,11 +7,11 @@ import img1 from "/src/assets/real_images/About2.jpg";
 const PersonalV2 = () => {
   return (
     <div><div className="flex flex-col w-full items-center justify-center">
-    <h3 className="p-2 w-3/4 border-black border-2 m-4">
+    <h3 className="p-2 w-3/4 max-w-fit border-black border-2 mb-4">
     "Significance of Professional Car and Bike Transportation"
     </h3>
-    <div className="flex justify-center w-4/5 ">
-      <ol className=" text-balance flex flex-col list-decimal text-justify text-md w-3/4 justify-center">
+    <div className="flex justify-center w-4/5 lg:w-1/2 ">
+      <ol className=" text-pretty flex flex-col list-decimal text-justify text-md w-3/4 lg:w-full justify-center">
         <li className="">
           <strong>Expert Handling and Specialized Carriers: </strong> Cars and bikes are not just modes of transportation; they are prized possessions. Our experienced team is well-versed in the art of handling vehicles during transportation. We utilize specialized carriers, equipped with advanced technology, to securely transport your vehicles, providing maximum protection and stability throughout the journey.
         </li>
@@ -27,12 +27,13 @@ const PersonalV2 = () => {
       </ol>
     </div>
   </div>
-  <div className="flex flex-col w-full items-center justify-center">
-    <h3 className="p-2 w-3/4 border-black border-2 m-4">
+  <div className="flex flex-col w-full items-center justify-center lg:mb-20 lg:flex-row-reverse lg:mt-20 lg:justify-evenly">
+    <div className='flex justify-center items-center flex-col lg:w-1/2'>
+    <h3 className="p-2 w-3/4 max-w-fit border-black border-2 mb-4">
       Advantages Of The "Lee Home Packers and Movers"
     </h3>
     <div className="flex justify-center w-4/5 ">
-      <ol className=" text-balance flex flex-col list-decimal text-justify text-md w-3/4 justify-center">
+      <ol className=" text-pretty flex flex-col mb-8 list-decimal text-justify text-md w-3/4 lg:w-full justify-center">
         <li className="">
           <strong>Reliability and Trust: </strong> With a solid reputation in the industry, we have earned the trust of numerous satisfied customers through our reliable and professional transportation services.
         </li>
@@ -48,9 +49,15 @@ const PersonalV2 = () => {
       </ol>
       <div className="flex justify-center"></div>
     </div>
-    <Link className="flex justify-center mt-6 mb-4 w-4/5" to="/">
-      <img className="flex w-4/5" src={img1} alt="" />
-    </Link>
+    </div>
+    <div className="flex items-center justify-center">
+              <Link
+                className="flex justify-center items-start lg:mb-0 w-4/5 lg:w-fit"
+                to="/"
+              >
+                <img className="flex w-4/5 lg:w-96" src={img1} alt="" />
+              </Link>
+            </div>
   </div></div>
   )
 }

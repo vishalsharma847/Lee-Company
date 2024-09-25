@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const images = require('../Components/mainpages/home/feedback/review.json');
+const images = require('./review.json');
 const cors = require('cors')
 
 app.use(cors())

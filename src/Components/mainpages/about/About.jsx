@@ -51,11 +51,21 @@ const About = ({ place }) => {
           </div>
         </div>
         <div className="flex flex-col justify-center items-center text-center mt-8 mb-4">
+          <div className="flex justify-center lg:mt-10">
           <Whylee />
+          </div>
+          <div className="lg:mt-20 lg:mb-20">
           <Connectwithus />
+          </div>
+          <div className="lg:mt-10">
           <WhatMakesUsUnique />
+          </div>
+          <div className="flex justify-center lg:mt-20">
           <Materials />
+          </div>
+          <div className="flex justify-center lg:mb-20 lg:mt-10">
           <OurMission />
+          </div>
         </div>
       </div>
     </section>

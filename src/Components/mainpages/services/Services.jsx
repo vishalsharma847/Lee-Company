@@ -9,7 +9,9 @@ const Services = () => {
         <meta charSet="utf-8" />
         <title>This is Services</title>
       </Helmet>
+      <div className="h-lvh">
       <ServicCont/>
+      </div>
     </div>
   );
 };

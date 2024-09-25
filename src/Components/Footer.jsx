@@ -52,11 +52,16 @@ const Footer = () => {
                 <h4 className='text-tfoot'>Follow Us</h4>
                 <div className='w-6 h-1 bg-red-600 rounded-lg'></div>
                 <ul className='flex mt-4 justify-around w-full'>
-                    <li><Link to="https://www.facebook.com/leehomepackersandmovers/"><FaFacebook className='size-6'/></Link></li>
-                    <li><Link to="https://twitter.com/leehomepackers?lang=en"><FaXTwitter className='size-6'/></Link></li>
-                    <li><Link to="https://www.instagram.com/leehomepackers/"><FaInstagram className='size-6'/></Link></li>
-                    <li><Link to=""><FaYoutube className='size-6'/></Link></li>
-                    <li><Link to=""><FaLinkedin className='size-6'/></Link></li>
+                    <li><Link to="https://www.facebook.com/leehomepackersandmovers/" target="_blank "
+                  rel="opener"><FaFacebook className='size-6'/></Link></li>
+                    <li><Link to="https://twitter.com/leehomepackers?lang=en" target="_blank "
+                  rel="opener"><FaXTwitter className='size-6'/></Link></li>
+                    <li><Link to="https://www.instagram.com/leehomepackers/" target="_blank "
+                  rel="opener"><FaInstagram className='size-6'/></Link></li>
+                    <li><Link to="" target="_blank "
+                  rel="opener"><FaYoutube className='size-6'/></Link></li>
+                    <li><Link to="" target="_blank "
+                  rel="opener"><FaLinkedin className='size-6'/></Link></li>
                 </ul>
             </div>
             </div>

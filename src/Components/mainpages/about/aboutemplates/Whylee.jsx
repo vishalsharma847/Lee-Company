@@ -14,8 +14,8 @@ const Whylee = ({ place }) => {
             />
           </Link>
         </div>
-        <div className="lg:w-1/2">
-          <h3 className="p-2 border-black border-2 m-4">
+        <div className="lg:w-1/2 lg:flex lg:flex-col lg:items-center">
+          <h3 className="p-2 border-black border-2 m-4 lg:w-fit lg:text-center">
             Why choose Lee Home Packers And Movers for your relocation needs?
           </h3>
           <div className="flex w-full justify-center">
@@ -70,11 +70,12 @@ const Whylee = ({ place }) => {
         </div>
       </div>
       <div className="flex flex-col justify-center items-center w-full text-center lg:w-4/5">
-        <p className="w-11/12">
+        <p className="w-11/12 lg:text-sm lg:font-bold"><i>
           Whether you are moving your home or office, locally or long-distance,
           Lee Home Packers And Movers is here to make your move hassle-free and
           efficient. Sit back, relax, and let our packers and movers in Delhi
           handle the hard work for you.
+          </i>
         </p>
         <p className="w-11/12 mt-4">
           Contact us today for a free quote and take the first step towards a

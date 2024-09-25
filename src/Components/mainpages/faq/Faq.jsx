@@ -38,21 +38,21 @@ const Faq = () => {
               className="flex flex-col justify-center align-middle items-center w-4/5 mb-4"
             >
               <div
-                className="bg-white rounded-xl flex justify-center items-center text-center"
+                className="bg-white rounded-xl flex justify-center items-center w-4/5 text-center"
                 onClick={() => makeVisible(e.id)}
               >
-                <h2 className="text-md font-bold m-2 w-72">{e.q}</h2>
+                <h2 className="text-md font-bold m-2 w-dvw">{e.q}</h2>
                 {state ? (
-                  <IoMdArrowDropupCircle className="flex justify-center align-middle size-5 ml-0 mr-3" />
+                  <IoMdArrowDropupCircle className="flex justify-center align-middle size-10 lg: ml-0 mr-3" />
                 ) : (
-                  <IoMdArrowDropdownCircle className="flex justify-center align-middle size-5 ml-0 mr-3" />
+                  <IoMdArrowDropdownCircle className="flex justify-center align-middle size-10 ml-0 mr-3" />
                 )}
               </div>
               <div
-                className="hidden rev text-md p-3 bg-bodyprim"
+                className="hidden w-3/4  text-md p-3 bg-bodyprim"
                 id={`review${e.id}`}
               >
-                <p>{e.a}</p>
+                <p className="w-dvw">{e.a}</p>
               </div>
             </div>
           );
